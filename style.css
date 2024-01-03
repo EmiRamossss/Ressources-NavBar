@@ -61,10 +61,10 @@ header{
     background-size: cover;
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.4),
-        rgba(0,0,0,0.4)
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
     ) 
-    ,url(Img/fondo2.jpg);
+    ,url(img/fondo2ultimo.jpg);
 }
 
 header .titulo h1{
@@ -97,6 +97,10 @@ header .titulo h1{
 
     #navbar .menu-hamburger{
         display: block;
+    }
+
+    .nav-links a{
+        font-size: 1.5rem;
     }
 
     .nav-links{
@@ -139,122 +143,430 @@ header .titulo h1{
 
 /*NUESTROS-PROGRAMAS*//*NUESTROS-PROGRAMAS*//*NUESTROS-PROGRAMAS*/
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
 #nuestros-programas{
-    background-color: rgb(30, 30, 30);
-    color: white;
-    text-align: center;
- }
-
-#nuestros-programas .card-button{
-    color: #fff;
-    font-family: "Roboto", sans-serif;
-    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
     text-decoration: none;
-    text-transform: uppercase;
-    background-color: transparent;
-    overflow: hidden;
-    font-size: 1.1rem;
-    padding: 8px 16px;
- }
- 
- #nuestros-programas p{
-     font-size: 1.05em
- }
+    text-transform: capitalize;
+    transition: .2s linear;
+}
 
- #nuestros-programas .container{
-    padding: 100px 8px;
- }
- 
- #nuestros-programas p{
-    display: none;
-    font-family: "Roboto", sans-serif;
- }
- 
- #nuestros-programas h2{
-    margin-top: 0;
-    font-size: 3.2em;
-    font-family: 'IBM Plex Sans', sans-serif;
- }
- 
- #nuestros-programas .carta{
-    background-position: center center;
+#nuestros-programas{
+    background-color: #333;
+    padding:15px 9%;
+    padding-bottom: 100px;
+}
+
+#nuestros-programas .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+#nuestros-programas .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+#nuestros-programas .box-container .box-1{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ) 
+    ,url(img/cataratas.png);
     background-size: cover;
-    padding: 50px;
-    margin: 20px;
-    border-radius: 15px;
-    flex-direction: column;
- }
- 
- .carta:first-child{
+    background-position: center center;
+    text-align: center;
+    padding:30px 20px;
+    transition: transform 0.6s ease;
+}
+
+#nuestros-programas .box-container .box-2{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
     background-image: linear-gradient(
         0deg,
-        rgb(0,0,0,0.5),
-        rgb(0,0,0,0.5)
-    )
-    ,url(Img/cataratas.png);
- }
- 
- .carta:nth-child(2){
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ) 
+    ,url(img/minas\ de\ wanda.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding:30px 20px;
+    transition: transform 0.6s ease;
+}
+
+#nuestros-programas .box-container .box-3{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
     background-image: linear-gradient(
         0deg,
-        rgb(0,0,0,0.5),
-        rgb(0,0,0,0.5)
-    )
-    ,url(Img/ciudad\ del\ este.jpg);
- }
- 
- .carta:nth-child(3){
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ) 
+    ,url(img/ruinas\ de\ san\ ignacio.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding:30px 20px;
+    transition: transform 0.6s ease;
+}
+
+#nuestros-programas .box-container .box-4{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
     background-image: linear-gradient(
         0deg,
-        rgb(0,0,0,0.5),
-        rgb(0,0,0,0.5)
-    )
-    ,url(Img/minas\ de\ wanda.jpg);
- }
- 
- @media (min-width: 1030px){
- 
-    #nuestros-programas .programas{
-        display: flex;
-        justify-content: center;
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ) 
+    ,url(img/cataratas\ brasileras.jpeg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding:30px 20px;
+    transition: transform 0.6s ease;
+}
+
+#nuestros-programas .box-container .box-5{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ) 
+    ,url(img/paseo\ en\ helicoptero.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding:30px 20px;
+    transition: transform 0.6s ease;
+}
+
+#nuestros-programas .box-container .box-6{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ) 
+    ,url(img/ciudad\ del\ este.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding:30px 20px;
+    transition: transform 0.6s ease;
+}
+
+#nuestros-programas .box-container .box-7{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ) 
+    ,url(img/represa\ itaipu.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding:30px 20px;
+    transition: transform 0.6s ease;
+}
+
+#nuestros-programas .box-container .box-8{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ) 
+    ,url(img/gran\ aventura.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding:30px 20px;
+    transition: transform 0.6s ease;
+}
+
+#nuestros-programas .box-container .box-9{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ) 
+    ,url(img/restaurante\ rafain.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding:30px 20px;
+    transition: transform 0.6s ease;
+}
+
+#nuestros-programas .box-container .box-1 h3{
+    color:#fff;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+#nuestros-programas .box-container .box-2 h3{
+    color:#fff;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+#nuestros-programas .box-container .box-3 h3{
+    color:#fff;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+#nuestros-programas .box-container .box-4 h3{
+    color:#fff;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+#nuestros-programas .box-container .box-5 h3{
+    color:#fff;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+#nuestros-programas .box-container .box-6 h3{
+    color:#fff;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+#nuestros-programas .box-container .box-7 h3{
+    color:#fff;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+#nuestros-programas .box-container .box-8 h3{
+    color:#fff;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+#nuestros-programas .box-container .box-9 h3{
+    color:#fff;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+#nuestros-programas .box-container .box-1 p{
+    color:#fff;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+#nuestros-programas .box-container .box-2 p{
+    color:#fff;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+#nuestros-programas .box-container .box-3 p{
+    color:#fff;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+#nuestros-programas .box-container .box-4 p{
+    color:#fff;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+#nuestros-programas .box-container .box-5 p{
+    color:#fff;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+#nuestros-programas .box-container .box-6 p{
+    color:#fff;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+#nuestros-programas .box-container .box-7 p{
+    color:#fff;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+#nuestros-programas .box-container .box-8 p{
+    color:#fff;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+#nuestros-programas .box-container .box-9 p{
+    color:#fff;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+#nuestros-programas .box-container .box-1 .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+#nuestros-programas .box-container .box-2 .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+#nuestros-programas .box-container .box-3 .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+#nuestros-programas .box-container .box-4 .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+#nuestros-programas .box-container .box-5 .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+#nuestros-programas .box-container .box-6 .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+#nuestros-programas .box-container .box-7 .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+#nuestros-programas .box-container .box-8 .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+#nuestros-programas .box-container .box-9 .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+#nuestros-programas .box-container .box-1:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: translateY(-6px);
+}
+
+#nuestros-programas .box-container .box-2:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: translateY(-6px);
+}
+
+#nuestros-programas .box-container .box-3:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: translateY(-6px);
+}
+
+#nuestros-programas .box-container .box-4:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: translateY(-6px);
+}
+
+#nuestros-programas .box-container .box-5:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: translateY(-6px);
+}
+
+#nuestros-programas .box-container .box-6:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: translateY(-6px);
+}
+
+#nuestros-programas .box-container .box-7:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: translateY(-6px);
+}
+
+#nuestros-programas .box-container .box-8:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: translateY(-7px);
+}
+
+#nuestros-programas .box-container .box-9:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: translateY(-6px);
+}
+
+@media (max-width: 768px){
+    .container{
+        padding:20px;
     }
- 
-    #nuestros-programas p{
-        display: block;
-        margin-bottom: 30px;
-    }
- 
-    #nuestros-programas h3{
-        margin-top: 0;
-    }
- 
-    #nuestros-programas .carta{
-        padding: 15px;
-    }
- 
-    #nuestros-programas .carta{
-     display: inline-block;
-    }
- 
-    .carta:first-child{
-     width: 400px;
-     height: auto;
-     object-fit: cover;
-    }
- 
-    .carta:nth-child(2){
-     width: 400px;
-     height: auto;
-     object-fit: cover;
-    }
- 
-    .carta:nth-child(3){
-     width: 400px;
-     height: auto;
-     object-fit: cover;
-    }
- 
- }
+}
 
 /*VIAJE SEGURO*//*VIAJE SEGURO*//*VIAJE SEGURO*//*VIAJE SEGURO*/
 
@@ -269,7 +581,7 @@ header .titulo h1{
         0deg, 
         rgba(0,0,0,0.3), 
         rgba(0,0,0,0.3)) 
-        ,url(Img/viaje.jpg);
+        ,url(img/viaje.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -291,25 +603,14 @@ header .titulo h1{
 }
 
 #pie-pagina .grupo-1{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display:grid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
     grid-template-columns: repeat(3, 1fr);
     grid-gap:50px;
     padding: 45px 0px;
-}
-
-#pie-pagina .grupo-1 .box figure{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#pie-pagina .grupo-1 .box figure img{
-    width: 170px;
 }
 
 #pie-pagina .grupo-1 .box h2{
@@ -321,21 +622,6 @@ header .titulo h1{
 #pie-pagina .grupo-1 .box p{
     color: #efefef;
     margin-bottom: 10px;
-}
-
-#pie-pagina .grupo-1 .red-social a{
-    display:block;
-    padding: 5px;
-    text-align: justify;
-    margin-bottom: 10px;
-    text-decoration: none;
-    margin-right: 10px;
-    transition: all 300ms ease;
-    color: #fff;
-}
-
-#pie-pagina .grupo-1 .red-social a:hover{
-    color: rgb(36, 84, 39);
 }
 
 #pie-pagina .grupo-2{
@@ -358,59 +644,31 @@ header .titulo h1{
     }
 }
 
-@media (max-width: 720px){
-    .header{
-        padding: 1.3rem 5%;
-    }
+/*BOTON FLOTANTE*//*BOTON FLOTANTE*//*BOTON FLOTANTE*//*BOTON FLOTANTE*/
+
+.float{
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:10px;
+	right:10px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:20px;
+	box-shadow: 1px 1px 2px #999;
+    z-index:100;
 }
 
-@media (max-width: 720px){
-    .icons{
-        display: inline-flex;
-    }
+.float:hover {
+text-decoration: none;
+color: #FFF;
+background-color:#1ab152; 
+animation: shake 1s;
+animation-iteration-count: infinite;
+}
 
-    #check:checked~.icons #menu-icon{
-        display: none;
-    }
-
-    .icons #close-icon{
-        display: none;
-    }
-
-    #check:checked~.icons #close-icon{
-        display: block;
-    }
-
-    .navbar{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        height: 0;
-        background: rgba(0, 0, 0, .2);
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-        overflow: hidden;
-        transition: .3s ease;
-
-    }
-
-    #check:checked~.navbar{
-        height: 12.2rem;
-    }
-
-    .navbar a{
-        display: block;
-        font-size: 1.1rem;
-        margin: 2.1rem 0;
-        text-align: center;
-        transform: translateY(-50px);
-        opacity: 0;
-        transition: .3s ease;
-    }
-
-    #check:checked~.navbar a{
-        transform: translateY(0);
-        opacity: 1;
-        transition-delay: calc(.15s * var(--i));
-    }
+.my-float{
+	margin-top:16px;
 }
