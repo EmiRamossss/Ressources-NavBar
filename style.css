@@ -427,132 +427,6 @@ header .titulo h1{
     line-height: 1.8;
 }
 
-#nuestros-programas .box-container .box-1 .btn{
-    background-color: #333;
-    border: 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    font-size: 14px;
-    padding: 10px 25px;
-}
-
-#nuestros-programas .box-container .box-2 .btn{
-    background-color: #333;
-    border: 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    color: #fff;
-    font-size: 14px;
-    padding: 10px 25px;
-}
-
-#nuestros-programas .box-container .box-3 .btn{
-    background-color: #333;
-    border: 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    color: #fff;
-    font-size: 14px;
-    padding: 10px 25px;
-}
-
-#nuestros-programas .box-container .box-4 .btn{
-    background-color: #333;
-    border: 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    color: #fff;
-    font-size: 14px;
-    padding: 10px 25px;
-}
-
-#nuestros-programas .box-container .box-5 .btn{
-    background-color: #333;
-    border: 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    color: #fff;
-    font-size: 14px;
-    padding: 10px 25px;
-}
-
-#nuestros-programas .box-container .box-6 .btn{
-    background-color: #333;
-    border: 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    color: #fff;
-    font-size: 14px;
-    padding: 10px 25px;
-}
-
-#nuestros-programas .box-container .box-7 .btn{
-    background-color: #333;
-    border: 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    color: #fff;
-    font-size: 14px;
-    padding: 10px 25px;
-}
-
-#nuestros-programas .box-container .box-8 .btn{
-    background-color: #333;
-    border: 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    color: #fff;
-    font-size: 14px;
-    padding: 10px 25px;
-}
-
-#nuestros-programas .box-container .box-9 .btn{
-    background-color: #333;
-    border: 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    color: #fff;
-    font-size: 14px;
-    padding: 10px 25px;
-}
-
-#nuestros-programas .box-container .box-1 .btn a{
-    color: #fff;
-}
-
-#nuestros-programas .box-container .box-2 .btn a{
-    color: #fff;
-}
-
-#nuestros-programas .box-container .box-3 .btn a{
-    color: #fff;
-}
-
-#nuestros-programas .box-container .box-4 .btn a{
-    color: #fff;
-}
-
-#nuestros-programas .box-container .box-5 .btn a{
-    color: #fff;
-}
-
-#nuestros-programas .box-container .box-6 .btn a{
-    color: #fff;
-}
-
-#nuestros-programas .box-container .box-7 .btn a{
-    color: #fff;
-    text-decoration: none;
-}
-
-#nuestros-programas .box-container .box-8 .btn a{
-    color: #fff;
-}
-
-#nuestros-programas .box-container .box-9 .btn a{
-    color: #fff;
-}
-
 #nuestros-programas .box-container .box-1 button{
     background-color: #333;
     border: 0;
@@ -774,15 +648,15 @@ header .titulo h1{
 
 .float{
 	position:fixed;
-	width:50px;
-	height:50px;
+	width:60px;
+	height:60px;
 	bottom:20px;
 	right:20px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
-    font-size:20px;
+    font-size:30px;
 	box-shadow: 1px 1px 2px #999;
     z-index:100;
 }
@@ -799,52 +673,7 @@ animation-iteration-count: infinite;
 	margin-top:16px;
 }
 
-/*MODAL*//*MODAL*//*MODAL*//*MODAL*//*MODAL*//*MODAL*//*MODAL*//*MODAL*//*MODAL*//*MODAL*//*MODAL*//*MODAL*//*MODAL*//*MODAL*/
-  
-.modal-container {
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.3);
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    pointer-events: none;
-    opacity: 0;  
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    transition: opacity 0.3s ease;
-  }
-  
-  .show {
-    pointer-events: auto;
-    opacity: 1;
-  }
-  
-.modal {
-    background-color: #fff;
-    width: 600px;
-    max-width: 100%;
-    padding: 30px 50px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    text-align: center;
-  }
-  
-.modal h1 {
-    margin: 0;
-  }
-  
-.modal p {
-    font-size: 14px;
-  }
-
-.modal-container button{
-    background-color: #333;
-    border: 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+#nuestros-programas .modal-footer a{
+    text-decoration: none;
     color: #fff;
-    font-size: 14px;
-    padding: 10px 25px;
 }
