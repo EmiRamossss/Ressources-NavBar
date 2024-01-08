@@ -62,8 +62,8 @@ header{
     background-size: cover;
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.3),
-        rgba(0,0,0,0.3)
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)
     ) 
     ,url(img/fondo2ultimo.jpg);
 }
@@ -169,6 +169,11 @@ header .titulo h1{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     gap:15px;
+}
+
+#nuestros-programas .modal-footer a{
+    text-decoration: none;
+    color: #fff;
 }
 
 #nuestros-programas .box-container .box-1{
@@ -613,9 +618,4 @@ animation-iteration-count: infinite;
 
 .my-float{
 	margin-top:16px;
-}
-
-#nuestros-programas .modal-footer a{
-    text-decoration: none;
-    color: #fff;
 }
