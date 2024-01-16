@@ -169,6 +169,8 @@ header .titulo h1{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     gap:15px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 #nuestros-programas .modal-footer a{
@@ -184,7 +186,7 @@ header .titulo h1{
         rgba(0,0,0,0.3),
         rgba(0,0,0,0.3)
     ) 
-    ,url(img/cataratas.png);
+    ,url(img/cataratas\ brasileras.jpeg);
     background-size: cover;
     background-position: center center;
     text-align: center;
@@ -200,7 +202,7 @@ header .titulo h1{
         rgba(0,0,0,0.3),
         rgba(0,0,0,0.3)
     ) 
-    ,url(img/minas\ de\ wanda.jpg);
+    ,url(img/cataratas.png);
     background-size: cover;
     background-position: center center;
     text-align: center;
@@ -216,7 +218,7 @@ header .titulo h1{
         rgba(0,0,0,0.3),
         rgba(0,0,0,0.3)
     ) 
-    ,url(img/ruinas\ de\ san\ ignacio.jpg);
+    ,url(img/gran\ aventura.jpg);
     background-size: cover;
     background-position: center center;
     text-align: center;
@@ -232,7 +234,7 @@ header .titulo h1{
         rgba(0,0,0,0.3),
         rgba(0,0,0,0.3)
     ) 
-    ,url(img/cataratas\ brasileras.jpeg);
+    ,url(img/parque\ de\ las\ aves.jpg);
     background-size: cover;
     background-position: center center;
     text-align: center;
@@ -296,7 +298,7 @@ header .titulo h1{
         rgba(0,0,0,0.3),
         rgba(0,0,0,0.3)
     ) 
-    ,url(img/gran\ aventura.jpg);
+    ,url(img/minas\ de\ wanda.jpg);
     background-size: cover;
     background-position: center center;
     text-align: center;
@@ -313,6 +315,22 @@ header .titulo h1{
         rgba(0,0,0,0.3)
     ) 
     ,url(img/restaurante\ rafain.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding:30px 20px;
+    transition: transform 0.6s ease;
+}
+
+#nuestros-programas .box-container .box-10{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ) 
+    ,url(img/ruinas\ de\ san\ ignacio.jpg);
     background-size: cover;
     background-position: center center;
     text-align: center;
@@ -369,6 +387,12 @@ header .titulo h1{
 }
 
 #nuestros-programas .box-container .box-9 h3{
+    color:#fff;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+#nuestros-programas .box-container .box-10 h3{
     color:#fff;
     font-size: 22px;
     padding:10px 0;
@@ -464,6 +488,16 @@ header .titulo h1{
     padding: 10px 25px;
 }
 
+#nuestros-programas .box-container .box-10 button{
+    background-color: #333;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 25px;
+}
+
 #nuestros-programas .box-container .box-1:hover{
     box-shadow: 0 10px 15px rgba(0,0,0,.3);
     transform: translateY(-6px);
@@ -505,6 +539,10 @@ header .titulo h1{
 }
 
 #nuestros-programas .box-container .box-9:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: translateY(-6px);
+}
+#nuestros-programas .box-container .box-10:hover{
     box-shadow: 0 10px 15px rgba(0,0,0,.3);
     transform: translateY(-6px);
 }
